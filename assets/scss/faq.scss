@@ -1,0 +1,31 @@
+@import "mixins.scss";
+@import "variables.scss";
+
+.faq-bg {
+  background-image: url("../img/bg-faq.jpg");
+  @include background-image;
+  min-height: 50vh;
+}
+
+.faq-content {
+  div{
+    margin: 20px 0;
+
+    span{padding-left: 5px;}
+  }
+  p {
+    margin: 20px 0;
+    display: none;
+  }
+  h3 {
+    cursor: pointer;
+    display: inline;
+    font-weight: 400;
+    line-height: 1.5em;
+  }
+}
+ul.faqs {
+  li {
+    margin: 10px 0;
+  }
+}

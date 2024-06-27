@@ -1,0 +1,15 @@
+@import "mixins.scss";
+@import "variables.scss";
+
+.about-bg {
+  background-image: url("../img/bg-about.jpg");
+  @include background-image;
+  min-height: 50vh;
+}
+
+p {
+  margin: 20px 0;
+}
+h3{
+  margin-bottom: 20px;
+}

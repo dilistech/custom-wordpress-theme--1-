@@ -1,0 +1,66 @@
+@import "mixins.scss";
+@import "variables.scss";
+
+.contact-bg {
+  background-image: url("../img/bg-contact.jpg");
+  @include background-image;
+  background-position: top;
+  min-height: 50vh;
+}
+
+.contact-form {
+  div {
+    margin: 20px 0;
+  }
+}
+
+p {
+  margin: 20px 0;
+}
+input {
+  box-sizing: border-box;
+}
+
+textarea,
+.btn-submit,
+input {
+  width: 100%;
+  font-size: 1em;
+}
+input {
+  padding: 15px;
+}
+input[type="submit"] {
+  background: #3962dc;
+  border: 1px solid #3962dc;
+  opacity: 0.89;
+  color: $white;
+  font-size: 1em;
+}
+input[type="submit"]:hover {
+  opacity: 1;
+}
+.contact-info {
+  
+  div {
+    
+    margin: 10px;
+
+  }
+}
+@media only screen and (min-width: 700px)  {
+  .contact-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  div {
+    flex: 0 0 45%;    
+    font-size: 1.5em;
+    margin: 10px;
+
+    &:nth-child(2){
+      text-align: end;
+    }
+  }
+}
+}

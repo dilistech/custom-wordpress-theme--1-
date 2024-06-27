@@ -1,0 +1,28 @@
+.faq-bg {
+  background-image: url("../img/bg-faq.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 50vh;
+}
+
+.faq-content div {
+  margin: 20px 0;
+}
+.faq-content div span {
+  padding-left: 5px;
+}
+.faq-content p {
+  margin: 20px 0;
+  display: none;
+}
+.faq-content h3 {
+  cursor: pointer;
+  display: inline;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+ul.faqs li {
+  margin: 10px 0;
+}

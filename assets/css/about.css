@@ -1,0 +1,15 @@
+.about-bg {
+  background-image: url("../img/bg-about.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 50vh;
+}
+
+p {
+  margin: 20px 0;
+}
+
+h3 {
+  margin-bottom: 20px;
+}
